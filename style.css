@@ -40,6 +40,7 @@
     
     nav ul li{
         padding: 20px;
+        font-weight: bold;
     }
     
     a{
@@ -47,10 +48,21 @@
         color: white;
     }
 
+    button{
+        width: 190px;
+        height: 40px;
+        border-radius: 5px;
+        border: none;
+        background-color:#121583 ;
+        color: white;
+        font-weight: bold;
+    }
     nav button{
         border: none;
         background: none;
         color: inherit;
+        width: inherit;
+        height: auto;
     }
     
     .homepage{
@@ -95,6 +107,12 @@
         align-items: center;
     }
     
+    .main-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     .main-text{
         width: 70%;
         display: flex;
@@ -123,5 +141,208 @@
         justify-content: center;
         width: 50%;
     }
+
+    .main-image-2{
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        align-items: center;
+        justify-content: center;
+    }
+    .main-image-2 img{
+        display: flex;
+        justify-content: center;
+        width: 50%;
+    }
+
+    .apply-page{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .apply-page button:hover{
+        color:#C16FD2
+    }
+
 }
 
+@media screen and (min-width: 769px){
+    body{
+        background-color: #3A51E8;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+    }
+    
+    .heading{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+
+    .heading-image{
+        display: flex;
+        flex: 1;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .homepage-text h1{
+        font-family: "Archivo", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        color: white;
+        text-align: center;
+    }
+    
+    .menu{
+        display: flex;
+        flex: 1;
+        justify-content: center;
+        align-content: center;
+
+    }
+    nav ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+    }
+    
+    nav ul li{
+        padding: 20px;
+        font-weight: bold;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    a{
+        text-decoration: none;
+        color: white;
+    }
+
+    button{
+        width: 190px;
+        height: 40px;
+        border-radius: 5px;
+        border: none;
+        background-color:#121583 ;
+        color: white;
+        font-weight: bold;
+    }
+
+    button:hover{
+        background-color: #C16FD2;
+    }
+    nav button{
+        width: inherit;
+        height: auto;
+    }
+
+    
+    .homepage{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+    
+    .homepage-text{
+        flex: 1;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .homepage-text h1{
+        text-align: left;
+    }
+    
+    
+    .homepage-image{
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .homepage-image img{
+        width: 100%;
+    }
+
+    .main-container{
+        background: #FAFAFF;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main-content{
+        display: flex;
+        width: 75%;
+    }
+    
+    .main-text{
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        text-align: center;
+        color: black;
+        text-align: left;
+    }
+
+    .main-text h2{
+        font-family: "Archivo", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        text-align: left;
+    }
+
+    .main-image {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .main-image-2 {
+        order: 2;
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .main-image img{
+        display: flex;
+        justify-content: center;
+        width: 50%;
+    }
+
+    .main-image-2 img{
+        display: flex;
+        justify-content: center;
+        width: 50%;
+    }
+
+    .apply-page{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
