@@ -63,6 +63,7 @@
         color: inherit;
         width: inherit;
         height: auto;
+        cursor: pointer;
     }
     
     .homepage{
@@ -164,7 +165,8 @@
     }
 
     .apply-page button:hover{
-        color:#C16FD2
+        color:#C16FD2;
+        cursor: pointer;
     }
 
 }
@@ -238,6 +240,7 @@
 
     button:hover{
         background-color: #C16FD2;
+        cursor: pointer;
     }
     nav button{
         width: inherit;
